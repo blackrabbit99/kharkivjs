@@ -10,7 +10,7 @@ function initOpenClose() {
 		opener:'a.opener',
 		slider:'div.slide',
 		effect:'slide',
-		animSpeed:1000,
+		animSpeed:400,
 		animStart: function(){
 			console.log('start');
 		}
