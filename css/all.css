@@ -290,8 +290,17 @@ figure{
 	overflow:hidden;
 	font-weight:normal;
 }
-#content .partaker-list  .expanded .info{display:none;}
-#content p{margin:0 0 10px;}
+//#content .partaker-list  .expanded .info{display:none;}
+#content p{
+	color: #FC9965;
+	margin: 0 0 10px 33px;
+	font-size: 18px;
+}
+#content .expanded p{
+	color: #FC9965;
+	margin: 0 0 10px 33px;
+	font-size: 18px;
+}
 .organizers-list{overflow:hidden;}
 .organizers-list section{
 	overflow:hidden;

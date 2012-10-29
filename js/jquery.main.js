@@ -9,8 +9,11 @@ function initOpenClose() {
 		activeClass:'expanded',
 		opener:'a.opener',
 		slider:'div.slide',
-		effect:'fade',
-		animSpeed:200
+		effect:'slide',
+		animSpeed:1000,
+		animStart: function(){
+			console.log('start');
+		}
 	});
 }
 
@@ -31,7 +34,9 @@ function initOpenClose() {
 			effect:'fade',
 			event:'click'
 		},o);
-
+		
+		var self = $(this);
+		
 		return this.each(function(){
 			// options
 			var holder = $(this), animating;
@@ -58,9 +63,16 @@ function initOpenClose() {
 								holder.removeClass(options.activeClass);
 							}
 						} else {
+							self.each(function(){
+								if($(this).hasClass(options.activeClass)){
+									 $(this).find(options.opener).trigger('click');
+								}
+							});
+							
 							if(options.addClassBeforeAnimation) {
 								holder.addClass(options.activeClass);
 							}
+							
 							toggleEffects[options.effect].show({
 								speed: options.animSpeed,
 								box: slider,
@@ -93,6 +105,7 @@ function initOpenClose() {
 				o.box.slideDown(o.speed, o.complete);
 			},
 			hide: function(o) {
+				console.log(o.box);
 				o.box.slideUp(o.speed, o.complete);
 			}
 		},
