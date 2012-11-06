@@ -2,19 +2,44 @@
 /* @var $this SiteController */
 
 $this->pageTitle=Yii::app()->name;
+
 ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
-
-<p>Congratulations! You have successfully created your Yii application.</p>
-
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
+<ul class="partaker-list">
+    <li>
+        <section>
+            <h2><a href="#" class="opener">Paul Miller & Egor Nazarkin</a></h2>
+            <figure class="visual">
+                <!-- <img width="122" height="122" src="images/img-pt0.jpg" alt="some image" /> -->
+            </figure>
+            <strong class="info">Superior service-based web apps with Chaplin (Backbone) and Brunch</strong>
+            <div class="slide">
+                <p>Сhaplin.js is meta-frameword based on backbone.js. Architectural features. Why should you use it?</p>
+            </div>
+        </section>
+    </li>
+    <li>
+        <section>
+            <h2><a href="javascript:void( 0 )" class="opener">Sergey Gospodarets(special guest from Mamba.ru/Moscow)</a></h2>
+            <figure class="visual">
+                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
+            </figure>
+            <strong class="info">HTML5 File API</strong>
+            <div class="slide">
+                <p>Multiple files upload using JavaScript File API with preprocessing on client. Images preview, drag-n-drop, file type/size etc. validation, the ability to set quality and size for images on the client side before upload.</p>
+            </div>
+        </section>
+    </li>
+   <!-- <li>
+        <section>
+            <h2><a href="#" class="opener">Olexiy Slusarenko</a></h2>
+            <figure class="visual">
+                <img width="122" height="122" src="images/img-pt0.jpg" alt="some image" /> 
+            </figure>
+            <strong class="info"> Introduction to Sencha Touch2</strong>
+            <div class="slide">
+                <p> Introduction to Sencha Touch2</p>
+            </div>
+        </section>
+    </li> -->
 </ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>

@@ -71,6 +71,25 @@ class SiteController extends Controller
 		}
 		$this->render('contact',array('model'=>$model));
 	}
+    
+    public function actionRegistration(){
+        $model = new RegistrationForm();
+        
+        
+        if(isset($_POST['RegistrationForm']))
+        {
+            $model->attributes=$_POST['RegistrationForm'];
+            
+                
+            if($model->validate()){
+                
+                echo $model->save();
+            }
+            
+        }
+             
+        $this->render('registration', array('model'=>$model));                
+    }
 
 	/**
 	 * Displays the login page
