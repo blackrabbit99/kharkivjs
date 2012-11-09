@@ -66,6 +66,19 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+    <fieldset>
+    <div class="row buttons">
+        Action:
+		<select name="action">
+            <option value="approve">approve</option>
+            <option value="unapprove">unapprove</option>
+            <option value="request">send request for approval participation</option>
+        </select>
+	</div>
+    <div class="row buttons">
+		<?php echo CHtml::submitButton('Submit', array( 'id' => "submit")); ?>
+	</div>
+    </fieldset>
    <?php $this->endWidget(); ?>
 
 </div>
