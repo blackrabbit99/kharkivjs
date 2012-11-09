@@ -2161,3 +2161,1061 @@ Stack trace:
 #17 {main}
 REQUEST_URI=/index.php?r=site/registration
 ---
+2012/11/06 20:21:27 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(89): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (89)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 17:40:29 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 17:46:04 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 17:47:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'artem.popenko@dev-pro.net' for key 'email_UNIQUE'. The SQL statement executed was: INSERT INTO `member` (`name`, `company`, `position`, `email`, `confirmation`, `approved`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (86)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 17:47:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'artem.popenko@dev-pro.net' for key 'email_UNIQUE'. The SQL statement executed was: INSERT INTO `member` (`name`, `company`, `position`, `email`, `confirmation`, `approved`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\db\CDbCommand.php:354
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(86): CActiveRecord->save()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 17:50:31 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "viewTest".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php:879
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(783): CController->renderPartial('viewTest', Array, true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(94): CController->render('viewTest', Array, true)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 17:50:51 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "viewTest".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php:879
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(783): CController->renderPartial('viewTest', Array, true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(94): CController->render('viewTest', Array, true)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 17:52:31 [error] [exception.CException] exception 'CException' with message 'Alias "ext.swiftMailer.SwiftMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:318
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): YiiBase::import('ext.swiftMailer...', true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CModule->getComponent('swiftMailer')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(100): CModule->__get('swiftMailer')
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 18:02:13 [error] [exception.CException] exception 'CException' with message 'Alias "ext.swiftMailer.SwiftMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:318
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): YiiBase::import('ext.swiftMailer...', true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CModule->getComponent('mailer')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 18:06:25 [error] [exception.CException] exception 'CException' with message 'Alias "ext.swiftMailer.lib.Swift" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:318
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): YiiBase::import('ext.swiftMailer...', true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CModule->getComponent('mailer')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 18:07:05 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:07:05 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.swiftMailer.lib.Swift" is invalid. Make sure it points to an existing directory or file.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:343
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): YiiBase::import('extensions.swif...', true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CModule->getComponent('mailer')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 18:07:48 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:07:48 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.swiftMailer.lib.Swift.SwiftException" is invalid. Make sure it points to an existing directory or file.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:343
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): YiiBase::import('extensions.swif...', true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CModule->getComponent('mailer')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 18:07:57 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:07:57 [error] [exception.CException] exception 'CException' with message 'Alias "ext.swiftMailer.lib.Swift.SwiftException" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:318
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): YiiBase::import('ext.swiftMailer...', true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CModule->getComponent('mailer')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 18:08:21 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:08:21 [error] [php] include(swift_required.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(219): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): createComponent()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CWebApplication->getComponent()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CWebApplication->__get()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:08:46 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:08:46 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.swiftMailer.lib.swift_required" is invalid. Make sure it points to an existing directory or file.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:343
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): YiiBase::import('extensions.swif...', true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CModule->getComponent('mailer')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 18:09:49 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:09:49 [error] [exception.CException] exception 'CException' with message 'Alias "ext.swiftMailer.sm" is invalid. Make sure it points to an existing PHP file and the file is readable.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:318
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): YiiBase::import('ext.swiftMailer...', true)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CModule->getComponent('mailer')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 18:10:36 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:10:36 [error] [php] include(Swift_DependencyContainer.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\dependency_maps\cache_deps.php(3): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\swift_init.php(22): require()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(316): require()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(198): import()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): createComponent()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CWebApplication->__get()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\dependency_maps\cache_deps.php (3)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\swift_init.php (22)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+2012/11/07 18:10:59 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:10:59 [error] [php] include(swift_required.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php(219): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(387): createComponent()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(104): CWebApplication->getComponent()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CWebApplication->__get()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:14:41 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:14:41 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:19:19 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:19:19 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:19:36 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:19:36 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:20:10 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:20:11 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:20:13 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:20:13 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:20:56 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:20:56 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:20:59 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:20:59 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:21:06 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:21:07 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:21:34 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:21:34 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:23:36 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 18:23:36 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.mailer" is not defined.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(106): CComponent->__get('mailer')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 19:14:16 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:14:16 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.mailer" is not defined.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CModule.php(106): CComponent->__get('mailer')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(88): CModule->__get('mailer')
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 19:16:57 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:16:57 [error] [php] Object of class SwiftMailer could not be converted to string (D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php:88)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (88)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:17:16 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:17:17 [error] [exception.Swift_TransportException] exception 'Swift_TransportException' with message 'Process could not be started [The system cannot find the path specified.
+]' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php:278
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php(76): Swift_Transport_StreamBuffer->_establishProcessConnection()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\SendmailTransport.php(131): Swift_Transport_StreamBuffer->initialize(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Mailer.php(87): Swift_Transport_SendmailTransport->send(Object(Swift_Message), Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\SwiftMailer.php(90): Swift_Mailer->send(Object(Swift_Message))
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(93): SwiftMailer->Send()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 19:20:37 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:20:38 [error] [exception.Swift_TransportException] exception 'Swift_TransportException' with message 'Process could not be started [The system cannot find the path specified.
+]' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php:278
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php(76): Swift_Transport_StreamBuffer->_establishProcessConnection()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\SendmailTransport.php(131): Swift_Transport_StreamBuffer->initialize(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Mailer.php(87): Swift_Transport_SendmailTransport->send(Object(Swift_Message), Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\SwiftMailer.php(90): Swift_Mailer->send(Object(Swift_Message))
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(93): SwiftMailer->Send()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 19:28:35 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:28:35 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(100): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (100)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:30:02 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:34:11 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:34:11 [error] [exception.Swift_TransportException] exception 'Swift_TransportException' with message 'Process could not be started [The system cannot find the path specified.
+]' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php:278
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php(76): Swift_Transport_StreamBuffer->_establishProcessConnection()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\SendmailTransport.php(131): Swift_Transport_StreamBuffer->initialize(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Mailer.php(87): Swift_Transport_SendmailTransport->send(Object(Swift_Message), Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\SwiftMailer.php(90): Swift_Mailer->send(Object(Swift_Message))
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(93): SwiftMailer->Send()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 19:36:07 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:36:07 [error] [exception.Swift_TransportException] exception 'Swift_TransportException' with message 'Process could not be started [The system cannot find the path specified.
+]' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php:278
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php(76): Swift_Transport_StreamBuffer->_establishProcessConnection()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\SendmailTransport.php(131): Swift_Transport_StreamBuffer->initialize(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Mailer.php(87): Swift_Transport_SendmailTransport->send(Object(Swift_Message), Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\SwiftMailer.php(90): Swift_Mailer->send(Object(Swift_Message))
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(93): SwiftMailer->Send()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 19:37:01 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:37:01 [error] [exception.Swift_TransportException] exception 'Swift_TransportException' with message 'Process could not be started [The system cannot find the path specified.
+]' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php:278
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php(76): Swift_Transport_StreamBuffer->_establishProcessConnection()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\SendmailTransport.php(131): Swift_Transport_StreamBuffer->initialize(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Mailer.php(87): Swift_Transport_SendmailTransport->send(Object(Swift_Message), Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\SwiftMailer.php(90): Swift_Mailer->send(Object(Swift_Message))
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(93): SwiftMailer->Send()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 19:37:28 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:38:33 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:38:36 [error] [php] fsockopen(): unable to connect to localhost:25 (No connection could be made because the target machine actively refused it.
+) (D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php:243)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php(111): Swift_Transport_StreamBuffer->initialize()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Mailer.php(84): Swift_SmtpTransport->start()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\SwiftMailer.php(90): Swift_Mailer->send()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(93): SwiftMailer->Send()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php (243)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php (80)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\AbstractSmtpTransport.php (111)
+2012/11/07 19:39:29 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:39:29 [error] [php] include(YiiMailMessage.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(91): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (91)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:40:31 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:40:31 [error] [exception.Swift_TransportException] exception 'Swift_TransportException' with message 'Process could not be started [The system cannot find the path specified.
+]' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php:278
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\StreamBuffer.php(76): Swift_Transport_StreamBuffer->_establishProcessConnection()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Transport\SendmailTransport.php(131): Swift_Transport_StreamBuffer->initialize(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\lib\classes\Swift\Mailer.php(87): Swift_Transport_SendmailTransport->send(Object(Swift_Message), Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\swiftMailer\SwiftMailer.php(90): Swift_Mailer->send(Object(Swift_Message))
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(94): SwiftMailer->Send()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/07 19:41:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:43:13 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 19:43:14 [error] [php] Illegal offset type (D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php:277)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(100): YiiMailMessage->__call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(100): YiiMailMessage->addTo()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php (277)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\YiiMailMessage.php (94)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (100)
+2012/11/07 19:52:45 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 20:06:19 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 20:10:31 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 20:11:10 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 20:11:53 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/07 20:12:06 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 18:52:57 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 18:52:57 [error] [exception.CException] exception 'CException' with message 'RegistrationForm and its behaviors do not have a method or closure named "sendConfirmationMessage".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\db\ar\CActiveRecord.php(226): CComponent->__call('sendConfirmatio...', Array)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(90): CActiveRecord->__call('sendConfirmatio...', Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(90): RegistrationForm->sendConfirmationMessage()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 18:53:15 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 18:53:15 [error] [exception.CException] exception 'CException' with message 'RegistrationForm and its behaviors do not have a method or closure named "renderPartial".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\db\ar\CActiveRecord.php(226): CComponent->__call('renderPartial', Array)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(44): CActiveRecord->__call('renderPartial', Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(44): RegistrationForm->renderPartial('confirmation_em...', Array, true)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(90): RegistrationForm->sendConfirmationMessage()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 18:57:02 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 18:57:02 [error] [exception.Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php:309
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(239): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(97): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(61): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderFactory.php(64): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderSet.php(77): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(301): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: Swift_Mime_SimpleMessage->addTo(NULL)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\YiiMailMessage.php(94): call_user_func_array(Array, Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(46): YiiMailMessage->__call('addTo', Array)
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(46): YiiMailMessage->addTo(NULL)
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(90): RegistrationForm->sendConfirmationMessage(Object(SiteController))
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#13 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#17 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#18 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 18:57:52 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 18:57:52 [error] [exception.Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php:309
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(239): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(97): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(61): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderFactory.php(64): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderSet.php(77): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(301): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: Swift_Mime_SimpleMessage->addTo(NULL)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\YiiMailMessage.php(94): call_user_func_array(Array, Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(47): YiiMailMessage->__call('addTo', Array)
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(47): YiiMailMessage->addTo(NULL)
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(90): RegistrationForm->sendConfirmationMessage(Object(SiteController))
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#13 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#17 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#18 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 18:58:28 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 18:58:28 [error] [exception.Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php:309
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(239): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(97): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(61): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderFactory.php(64): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderSet.php(77): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(301): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: Swift_Mime_SimpleMessage->addTo(NULL)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\YiiMailMessage.php(94): call_user_func_array(Array, Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(46): YiiMailMessage->__call('addTo', Array)
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(46): YiiMailMessage->addTo(NULL)
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(90): RegistrationForm->sendConfirmationMessage(Object(SiteController))
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#13 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#17 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#18 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 18:58:53 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 18:58:53 [error] [exception.Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php:309
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(239): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(97): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(61): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderFactory.php(64): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderSet.php(77): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(301): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: Swift_Mime_SimpleMessage->addTo(NULL)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\YiiMailMessage.php(94): call_user_func_array(Array, Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(49): YiiMailMessage->__call('addTo', Array)
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(49): YiiMailMessage->addTo(NULL)
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(90): RegistrationForm->sendConfirmationMessage(Object(SiteController))
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#13 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#17 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#18 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 18:59:32 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 18:59:33 [error] [exception.Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php:309
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(239): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(97): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\Headers\MailboxHeader.php(61): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderFactory.php(64): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleHeaderSet.php(77): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(301): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\vendors\swiftMailer\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 [internal function]: Swift_Mime_SimpleMessage->addTo(NULL)
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\extensions\mail\YiiMailMessage.php(94): call_user_func_array(Array, Array)
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(48): YiiMailMessage->__call('addTo', Array)
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\models\RegistrationForm.php(48): YiiMailMessage->addTo(NULL)
+#11 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(87): RegistrationForm->sendConfirmationMessage(Object(SiteController))
+#12 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#13 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registration')
+#17 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registrati...')
+#18 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=site/registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 18:59:58 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:02:17 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:02:53 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:05:42 [error] [php] include(RegisterUser.php): failed to open stream: No such file or directory (D:\Projects\Dev-Pro-Kharkivjs\src\framework\YiiBase.php:423)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(76): spl_autoload_call()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistration()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registration
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (76)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:06:32 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:11:37 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:12:08 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:17:06 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "thank-you-for-registration" was not found.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('thank-you-for-r...')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('page')
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=thank-you-for-registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 19:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "thank-you-for-registration" was not found.' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('thank-you-for-r...')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('page')
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=thank-you-for-registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 19:17:48 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page=thank-you-for-registration".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php:484
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(271): CController->missingAction('page=thank-you-...')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('page=thank-you-...')
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page=thank...')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/page=thank-you-for-registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 19:18:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page=thank-you-for-registration".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php:484
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(271): CController->missingAction('page=thank-you-...')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('page=thank-you-...')
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page=thank...')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/page=thank-you-for-registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 19:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page=thank-you-for-registration".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php:484
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(271): CController->missingAction('page=thank-you-...')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('page=thank-you-...')
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page=thank...')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/page=thank-you-for-registration
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/registration
+---
+2012/11/08 19:18:25 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:18:48 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/08 19:19:51 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)

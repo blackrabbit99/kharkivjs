@@ -73,22 +73,29 @@ class SiteController extends Controller
 	}
     
     public function actionRegistration(){
-        $model = new RegistrationForm();
+        $model = new RegisterUser();
         
         
-        if(isset($_POST['RegistrationForm']))
+        if(isset($_POST['RegisterUser']))
         {
-            $model->attributes=$_POST['RegistrationForm'];
+            $model->attributes=$_POST['RegisterUser'];
             
                 
             if($model->validate()){
                 
-                echo $model->save();
+                $model->save();              
+                $model->sendConfirmationMessage($this);
+                
+                Yii::app()->request->redirect('index.php?r=site/page&view=thank-you-for-registration');
             }
             
         }
-             
-        $this->render('registration', array('model'=>$model));                
+            $this->render('registration', array( 'model' => $model));                
+        
+        
+        
+        
+            
     }
 
 	/**

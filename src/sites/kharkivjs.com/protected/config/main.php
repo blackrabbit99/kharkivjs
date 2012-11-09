@@ -16,10 +16,12 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+        'ext.mail.YiiMailMessage',
 	),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
+        'swift' => array(),
 		/*
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
@@ -36,6 +38,15 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+        
+        'mail' => array(
+            'class' => 'ext.mail.YiiMail',
+            'transportType' => 'php',
+            'viewPath' => 'application.views.mail',
+            'logging' => true,
+            'dryRun' => false
+        ),
+        
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
@@ -84,5 +95,13 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'info@jskharkiv.com',
+        'confirmation'=> array(
+            'subject'   => 'Kharkivjs.com - Thank you for request.',
+            'message_view'   => 'confirmation_email'
+        ),
+        'approval'=> array(
+            'subject'   => 'Kharkivjs.com - Approve your registration.',
+            'message_view'   => 'approved_request_mail'
+        ),
 	),
 );
