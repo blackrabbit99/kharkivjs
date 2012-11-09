@@ -19,8 +19,8 @@ class RegisterUser extends CActiveRecord {
         return array(
             array('name, company, position, email','required'),
             array('email', 'email'),
-           // array('email', 'unique'),
-           // array('verifyCode', 'captcha', 'allowEmpty'=>!CCaptcha::checkRequirements()),
+            array('email', 'unique'),
+            array('verifyCode', 'captcha', 'allowEmpty'=>!CCaptcha::checkRequirements()),
             
         );
     }
