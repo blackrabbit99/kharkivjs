@@ -3219,3 +3219,51 @@ in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
 2012/11/08 19:19:51 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegisterUser".
 in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (81)
 in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/09 22:43:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php:484
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(271): CController->missingAction('register')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('register')
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/register')
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/register
+---
+2012/11/09 22:45:37 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'approveds' in 'field list'. The SQL statement executed was: SELECT `id`, `name`, `company`, `position`, `email`, `confirmation`, `approveds`
+FROM `member` `u`.
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (143)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)
+2012/11/09 22:45:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'approveds' in 'field list'. The SQL statement executed was: SELECT `id`, `name`, `company`, `position`, `email`, `confirmation`, `approveds`
+FROM `member` `u`' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(143): CDbCommand->queryRow()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistred_members()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): CController->run('registred_membe...')
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('site/registred_...')
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/registred_members
+HTTP_REFERER=http://kharkivjs.com.loc/index.php?r=site/page&view=thank-you-for-registration
+---
+2012/11/09 22:54:03 [error] [php] Illegal string offset 'name' (D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\views\site\registred_members.php:36)
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(870): SiteController->renderFile()
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(783): SiteController->renderPartial()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php(147): SiteController->render()
+#3 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\actions\CInlineAction.php(50): SiteController->actionRegistred_members()
+#4 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(287): SiteController->runAction()
+#6 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(283): SiteController->run()
+#8 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/registred_members
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\views\site\registred_members.php (36)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\protected\controllers\SiteController.php (147)
+in D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php (13)

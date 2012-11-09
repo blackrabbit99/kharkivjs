@@ -136,8 +136,15 @@ class SiteController extends Controller
     public function actionRegistred_members()
 	{
 		
-         $this->render('registred_members');     
+        $members_table = new RegisterUser();
+        
+        $members = $members_table->findAll();
+        
+        
+        
+        $this->render('registred_members', array( 'members' => $members ));     
         //registred_members
+         
 	}
     
     
