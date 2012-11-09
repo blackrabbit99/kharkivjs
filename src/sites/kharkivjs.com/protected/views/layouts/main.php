@@ -38,9 +38,12 @@
                                 array('label' => 'topics', 'url' => array('/site/index')),
                                 array('label' => 'partners', 'url' => array('/site/page', 'view' => 'partners')),
                                 array('label' => 'location', 'url' => array('/site/page', 'view' => 'location')),
-                                //array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
-                               // array('label' => 'Logout (' . Yii::app()->user->name . ')', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest)
                                 array('label'=>'organizers', 'url' => array('site/page', 'view' => 'organizers')),
+                                array('label' => 'admin panel', 'url' => array('/site/registred_members'), 'visible' => !Yii::app()->user->isGuest),
+                                array('label' => 'logout', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest)
+                                
+                                //array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
+                                
                             ),
                         ));
                         ?>

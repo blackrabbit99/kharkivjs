@@ -132,4 +132,13 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+    
+    public function actionRegistred_members()
+	{
+		
+         $this->render('registred_members');     
+        //registred_members
+	}
+    
+    
 }
