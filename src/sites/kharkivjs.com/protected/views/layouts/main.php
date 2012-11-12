@@ -31,22 +31,12 @@
 				</section>
 				<nav>
                     <div id="mainmenu">
-                        <?php
-                        $this->widget('zii.widgets.CMenu', array(
-                            'id' => 'nav',
-                            'items' => array(
-                                array('label' => 'topics', 'url' => array('/site/index')),
-                                array('label' => 'partners', 'url' => array('/site/page', 'view' => 'partners')),
-                                array('label' => 'location', 'url' => array('/site/page', 'view' => 'location')),
-                                array('label'=>'organizers', 'url' => array('site/page', 'view' => 'organizers')),
-                                array('label' => 'admin panel', 'url' => array('/site/registred_members'), 'visible' => !Yii::app()->user->isGuest),
-                                array('label' => 'logout', 'url' => array('/site/logout'), 'visible' => !Yii::app()->user->isGuest)
-                                
-                                //array('label' => 'Login', 'url' => array('/site/login'), 'visible' => Yii::app()->user->isGuest),
-                                
-                            ),
-                        ));
-                        ?>
+						   <ul id="nav">
+								<li><a href="home.html">topics</a></li>
+								<li><a href="partners.html">partners</a></li>
+								<li><a href="places.html">location</a></li>
+								<li><a href="organizer.html">organizers</a></li>
+							</ul>
                     </div>
 				</nav>
 			</header>

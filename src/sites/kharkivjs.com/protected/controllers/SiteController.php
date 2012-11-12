@@ -86,7 +86,7 @@ class SiteController extends Controller
                 $model->save();              
                 //$model->sendConfirmationMessage($this);
                 
-                Yii::app()->request->redirect('index.php?r=site/page&view=thank-you-for-registration');
+                Yii::app()->request->redirect('?r=site/page&view=thank-you-for-registration');
             }
             
         }
