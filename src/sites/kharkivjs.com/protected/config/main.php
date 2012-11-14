@@ -34,6 +34,18 @@ return array(
 
 	// application components
 	'components'=>array(
+        'urlManager' => array(
+            'urlFormat' => 'path',
+            'showScriptName'=>false,
+            'rules' => array(
+                'thank-you-for-registration' => 'site/page/view/thank-you-for-registration',
+                '' => '/site/index',
+                'registration' => 'site/registration',
+                'partners' => 'site/page/view/partners',
+                'location' => 'site/page/view/location',
+                'organizers' => 'site/page/view/organizers',
+            ),
+        ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

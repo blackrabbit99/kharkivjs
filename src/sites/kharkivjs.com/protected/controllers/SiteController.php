@@ -80,18 +80,21 @@ class SiteController extends Controller
         {
             $model->attributes=$_POST['RegisterUser'];
             
+            $status = false;
                 
-            if($model->validate()){
+            if($model->validate()){    
+                $status = $model->save();              
                 
-                $model->save();              
-                //$model->sendConfirmationMessage($this);
-                
-                Yii::app()->request->redirect('?r=site/page&view=thank-you-for-registration');
+                if($status){
+                    Yii::app()->request->redirect("/thank-you-for-registration");
+                }
             }
             
+            
         }
+        if(!$status){
             $this->render('registration', array( 'model' => $model));                
-        
+        }
         
         
         
