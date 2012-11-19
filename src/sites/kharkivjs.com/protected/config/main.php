@@ -106,7 +106,7 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'info@jskharkiv.com',
+		'adminEmail'=>'info@kharkivjs.com',
         'confirmation'=> array(
             'subject'   => 'Kharkivjs.com - Thank you for request.',
             'message_view'   => 'confirmation_email'
