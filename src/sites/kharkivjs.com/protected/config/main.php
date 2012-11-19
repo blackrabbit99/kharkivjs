@@ -48,25 +48,24 @@ return array(
         ),
         
 		// uncomment the following to enable URLs in path-format
-		/*
+		 
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				 '/registration' => '/site/registration',
 			),
+			 
 		),
-		*/
+		 
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=kharkivjs_db',
+			'connectionString' => 'mysql:host=localhost;dbname=mayusha_kharkivjs',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
+			'username' => 'mayusha',
+			'password' => '80661471977',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(
