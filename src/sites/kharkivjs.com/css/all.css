@@ -16,7 +16,7 @@ a:hover{text-decoration:underline;}
 input,
 textarea,
 select{
-	color:#474444;
+	color:#888;
 	vertical-align:middle;
 	font:100% 'PT Sans', Arial, Helvetica, sans-serif;
 }
@@ -121,7 +121,7 @@ figure{
 	border-radius:3px;
 	-moz-box-shadow: 3px 3px 0 rgba(74,72,68,0.25);
 	-webkit-box-shadow: 3px 3px 0 rgba(74,72,68,0.25);
-	box-shadow: 3px 3px 0 rgba(74,72,68,0.25);
+	box-shadow: 3px 3px 0 rgba(74,72,68,0.25);	
 }
 .header-content .btn .r{
 	float:left;
@@ -292,8 +292,17 @@ figure{
 	overflow:hidden;
 	font-weight:normal;
 }
-#content .partaker-list  .expanded .info{display:none;}
-#content p{margin:0 0 10px;}
+//#content .partaker-list  .expanded .info{display:none;}
+#content p{
+	color: #FC9965;
+	margin: 0 0 10px 33px;
+	font-size: 18px;
+}
+#content .expanded p{
+	color: #FC9965;
+	margin: 0 0 10px 33px;
+	font-size: 18px;
+}
 .organizers-list{overflow:hidden;}
 .organizers-list section{
 	overflow:hidden;
@@ -426,3 +435,19 @@ figure{
 	cursor:pointer;
 }
 
+.hint{
+    float: right;
+    font-size: 11px;
+    margin-top: 10px;
+    width: 50%;
+}
+.note{
+	display: none;
+}
+a#yw0_button{
+	font-size: 13px;
+	margin-left: 5px;
+}
+a#yw0_button: hover{
+	text-decoration: none;
+}
