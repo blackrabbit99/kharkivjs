@@ -138,17 +138,96 @@ class SiteController extends Controller
     
     public function actionRegistred_members()
 	{
-		
-        $members_table = new RegisterUser();
-        
-        $members = $members_table->findAll();
-        
-        
-        
-        $this->render('registred_members', array( 'members' => $members ));     
-        //registred_members
+		if(!Yii::app()->user->isGuest){
+            
+            $criteria = new CDbCriteria;
+            $members_table = new RegisterUser();
+            $members = array();
+            
+            if($_POST["RegisterUser"]){
+                
+                $action = $_POST['action'];
+                
+                $ids = $_POST["RegisterUser"]['id'];
+                foreach( $ids as $key => $value ){
+                    if( $value == 1 ){
+                        
+                        $member = RegisterUser::model()->findByPk($key);
+                        $retCode = true;
+                        
+                        if( $action == "approve" ){
+                            
+                            $member->approved = 'approved';
+                            
+                        }
+                        else if( $action == "unapprove" ){
+                            
+                           $member->approved = 'unapproved';
+                           
+                           
+                        } else if( $action == "request" ){
+                            $member->sendConfirmationMessage($this);
+                            
+                        }
+                        
+                        $retCode = $member->update();
+                        
+                    }
+                }
+                
+            }
+            else if($_POST["Search"]){           
+
+                
+                $condition_str = " 1 ";
+                $params = array();
+
+                $condition['name'] = $_POST["name"];
+                $condition['company'] = $_POST["company"];
+                $condition['position'] = $_POST["position"];  
+
+                $i = 0;
+                foreach ($condition as $key => $value) {
+                    if ($value != "") {
+
+                        $condition_str .= " and " . $key . " like " . ":" . $key;
+                        $params[":" . $key] = "%" . $value . "%";
+
+                        if ($i != count($condition))
+                            $i++;
+                    }
+                }
+                $condition_str .= " and 1";
+                $criteria->condition = $condition_str;
+                $criteria->params = $params;
+
+            
+            }
+            
+            $members = $members_table->findAll($criteria);                
+            $this->render('registred_members', array('members' => $members));
+            //registred_members
+            
+            
+        }
+        else{
+            $this->redirect('\login');
+        }
          
 	}
+    public function actionConfirmParticipation(){
+        
+         $key = $_GET['key'];
+         
+         $member = RegisterUser::model()->find(" md5( CONCAT(email , md5( CONCAT(position ,company)), company , email)) == :md5_key", array(":md5_key" => $key));
+         
+         echo "<pre>";
+         print_r($member);
+         echo "</pre>";
+         
+         $this->render('thank-you-for-confirmation', array('key' => $key));
+         
+    }
     
     
 }

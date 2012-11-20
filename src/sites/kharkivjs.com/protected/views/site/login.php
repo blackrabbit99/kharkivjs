@@ -16,9 +16,11 @@ $this->breadcrumbs=array(
 <article class="conf-place">
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'login-form',
+    'htmlOptions' => array( 'class' => "omni-form", ),
 	'enableClientValidation'=>true,
 	'clientOptions'=>array(
 		'validateOnSubmit'=>true,
+        
 	),
 )); ?>
 

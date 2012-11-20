@@ -7,6 +7,7 @@
  */
 
 class RegisterUser extends CActiveRecord {
+    public $id;
     public $name;
     public $company;
     public $position;
@@ -15,12 +16,17 @@ class RegisterUser extends CActiveRecord {
     public $approved;
     public $verifyCode;
     
+    public static function model($className=__CLASS__)
+    {
+        return parent::model($className);
+    }
+    
     public function rules(){
         return array(
             array('name, company, position, email','required'),
             array('email', 'email'),
             array('email', 'unique'),
-            array('verifyCode', 'captcha', 'allowEmpty'=>!CCaptcha::checkRequirements()),
+//            array('verifyCode', 'captcha', 'allowEmpty' => !CCaptcha::checkRequirements()),
             
         );
     }
@@ -35,7 +41,11 @@ class RegisterUser extends CActiveRecord {
     public function tableName() {
         return 'member';
     }
+    public function primaryKey() {
+        
+        return 'id';
 
+    }
 
     public function sendConfirmationMessage($controller)
     {
@@ -52,6 +62,10 @@ class RegisterUser extends CActiveRecord {
     public function findAll($condition = '', $params = array()) {
         return parent::findAll($condition, $params);
     }
+    public function findByPk($pk, $condition = '', $params = array()) {
+        return parent::findByPk($pk, $condition, $params);
+    }
+    
 
 }
 

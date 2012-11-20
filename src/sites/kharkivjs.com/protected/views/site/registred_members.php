@@ -1,17 +1,12 @@
-<?php
-//    echo "<pre>";
-//    print_r($members);
-//    echo "</pre>";  
-?>
 <div class="container">
     <span class="span12">
-        <form class="form-search">
+        <form class="form-search" method="POST">
             <label>User name</label>
-            <input placeholder="Enter username" name = 'userName' type="text" class="input-medium search-query">
+            <input placeholder="Enter username" name='Search[name]' type="text" class="input-medium search-query">
             <label>Company name</label>
-            <input placeholder="Enter company name" name = 'company' type="text" class="input-medium search-query">
+            <input placeholder="Enter company name" name = 'Search[company]' type="text" class="input-medium search-query">
             <label>User's position</label>
-            <input placeholder="Enter position" name = 'posotion' type="text" class="input-medium search-query">
+            <input placeholder="Enter position" name = 'Search[position]' type="text" class="input-medium search-query">
             <button type="submit" class="btn">Search</button>
         </form>
 

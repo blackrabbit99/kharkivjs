@@ -30,7 +30,7 @@
 		<?php echo $form->error($model,'email', array( 'id' => "text3")); ?>
 	</div>
 	<?php if(CCaptcha::checkRequirements()): ?>
-	<div class="row">
+	<!--<div class="row">
 		<?php echo $form->labelEx($model,'verifyCode', array( 'id' => "text4")); ?>
 		<div>
 		<?php $this->widget('CCaptcha'); ?>
@@ -39,7 +39,7 @@
 		<div class="hint">Please enter the letters as they are shown in the image above.
 		<br/>Letters are not case-sensitive.</div>
 		<?php echo $form->error($model,'verifyCode', array( 'id' => "text4")); ?>
-	</div>
+	</div> -->
 	<?php endif; ?>
     <p class="note">Fields with <span class="required">*</span> are required.</p>    
 	<div class="row buttons">
