@@ -61,7 +61,7 @@
 			<footer id="footer">
 				<ul class="social-m">
 					<li><a href="#" class="facebook">facebook</a></li>
-					<li><a href="#" class="twitter">twitter</a></li>
+					<li><a href="https://twitter.com/kharkivjs" class="twitter">twitter</a></li>
 				</ul>
 				<div class="holder">
 					<dl>

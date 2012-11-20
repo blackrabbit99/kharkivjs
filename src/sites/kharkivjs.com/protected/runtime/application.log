@@ -8284,3 +8284,456 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/11/20 20:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:47:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partners".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('partners')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partners
+HTTP_REFERER=http://kharkivjs.com.loc/
+---
+2012/11/20 20:47:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partners".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('partners')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partners
+HTTP_REFERER=http://kharkivjs.com.loc/partners
+---
+2012/11/20 20:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "location".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('location')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/location
+HTTP_REFERER=http://kharkivjs.com.loc/partners
+---
+2012/11/20 20:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:47:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "organizers".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('organizers')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/organizers
+HTTP_REFERER=http://kharkivjs.com.loc/location
+---
+2012/11/20 20:47:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "registred_members".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('registred_membe...')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/registred_members
+HTTP_REFERER=http://kharkivjs.com.loc/organizers
+---
+2012/11/20 20:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:47:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partners".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('partners')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partners
+HTTP_REFERER=http://kharkivjs.com.loc/index.php
+---
+2012/11/20 20:47:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:48:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partners".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('partners')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partners
+---
+2012/11/20 20:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partners".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('partners')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partners
+---
+2012/11/20 20:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('login')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2012/11/20 20:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "confirmation".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('confirmation')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/confirmation
+---
+2012/11/20 20:49:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:49:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "location".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('location')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/location
+---
+2012/11/20 20:49:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "organizers".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('organizers')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/organizers
+HTTP_REFERER=http://kharkivjs.com.loc/location
+---
+2012/11/20 20:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "location".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('location')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/location
+HTTP_REFERER=http://kharkivjs.com.loc/organizers
+---
+2012/11/20 20:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partners".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('partners')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partners
+HTTP_REFERER=http://kharkivjs.com.loc/location
+---
+2012/11/20 20:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:52:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:52:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:52:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partners".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('partners')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partners
+HTTP_REFERER=http://kharkivjs.com.loc/index.php/site/index
+---
+2012/11/20 20:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "location".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('location')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/location
+HTTP_REFERER=http://kharkivjs.com.loc/partners
+---
+2012/11/20 20:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partners".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('partners')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partners
+HTTP_REFERER=http://kharkivjs.com.loc/index.php/site/index
+---
+2012/11/20 20:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "location".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('location')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/location
+HTTP_REFERER=http://kharkivjs.com.loc/partners
+---
+2012/11/20 20:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:53:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:54:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/11/20 20:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\Projects\Dev-Pro-Kharkivjs\src\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 D:\Projects\Dev-Pro-Kharkivjs\src\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\Projects\Dev-Pro-Kharkivjs\src\sites\kharkivjs.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

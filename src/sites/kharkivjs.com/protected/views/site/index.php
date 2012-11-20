@@ -20,26 +20,62 @@ $this->pageTitle=Yii::app()->name;
     </li>
     <li>
         <section>
-            <h2><a href="javascript:void( 0 )" class="opener">Sergey Gospodarets(special guest from Mamba.ru/Moscow)</a></h2>
+            <h2><a href="javascript:void( 0 )" class="opener">Julia Puchnina</a></h2>
             <figure class="visual">
                 <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
             </figure>
-            <strong class="info">HTML5 File API</strong>
+            <strong class="info"> Javascript games for dummies: creation, performance, debug</strong>
             <div class="slide">
-                <p>Multiple files upload using JavaScript File API with preprocessing on client. Images preview, drag-n-drop, file type/size etc. validation, the ability to set quality and size for images on the client side before upload.</p>
+                <p>Follow the speech to create game using JavaScript. Review of the most common game engines</p>
             </div>
         </section>
     </li>
-   <!-- <li>
+    <li>
         <section>
-            <h2><a href="#" class="opener">Olexiy Slusarenko</a></h2>
+            <h2><a href="javascript:void( 0 )" class="opener">Yuriy Silvestrov & Mikhail Valkov</a></h2>
             <figure class="visual">
-                <img width="122" height="122" src="images/img-pt0.jpg" alt="some image" /> 
+                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
             </figure>
-            <strong class="info"> Introduction to Sencha Touch2</strong>
+            <strong class="info">Prototyping app using JS and HTML5</strong>
             <div class="slide">
-                <p> Introduction to Sencha Touch2</p>
+                <p>Please follow us to know all details</p>
             </div>
         </section>
-    </li> -->
+    </li>
+    <li>
+        <section>
+            <h2><a href="javascript:void( 0 )" class="opener">Yury Kremenchutsky, Artem Zakharcheko</a></h2>
+            <figure class="visual">
+                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
+            </figure>
+            <strong class="info">Implementing Scalable Javascript Application</strong>
+            <div class="slide">
+                <p>Discover how to build a JavaScript application framework that scales for the challenges of today's complex web applications.</p>
+            </div>
+        </section>
+    </li>
+    <li>
+        <section>
+            <h2><a href="javascript:void( 0 )" class="opener">JavaScript Ninja</a></h2>
+            <figure class="visual">
+                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
+            </figure>
+            <strong class="info">Waiting for guest from St. Petersburg Yandex's office</strong>
+            <div class="slide">
+                <p>Please follow us to know all details</p>
+            </div>
+        </section>
+    </li>
+    <!--<li>
+        <section>
+							<h2><a href="#" class="opener">Olexiy Slusarenko</a></h2>
+							<figure class="visual">
+								<!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" /> 
+							</figure>
+            <strong class="info"> Introduction to Sencha Touch2</strong>
+							<div class="slide">
+                <p> Introduction to Sencha Touch2</p>
+							</div>
+						</section>
+					</li> -->
 </ul>
