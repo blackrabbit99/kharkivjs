@@ -1,4 +1,4 @@
-<?php /* @var $this Controller */ ?>
+﻿<?php /* @var $this Controller */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -22,7 +22,7 @@
 					<strong class="logo"><a href="/">JS Kharkiv</a></strong>
 					<div class="holder">
 						<p>First Kharkiv JS will present talks and workshops about Html5 and JavaScript, the languages of the web. You'd get a chance to pick up with hipster's JS technology and proven solutions. </p>
-						<!-- <a href="#" class="btn"><span class="r">Регистрация</span><span class="l"></span></a> -->
+						<a href="/registration" class="btn"><span class="r">Registration</span><span class="l"></span></a>
 						<p>Technology stack: JavaScript, CoffeeScript, Backbone.js, Chaplin, HTML5, Sencha JS</p>
 					</div>
 				</section>
