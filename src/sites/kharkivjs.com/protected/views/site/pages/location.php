@@ -1,6 +1,6 @@
 <article class="conf-place">
     <div class="info">
-        <h2>Venue address will be added later</h2>
+        <!--<h2>Venue address will be added later</h2>-->
     </div>
     <div class="container">
        	<img width = 880 src = "images/Zfort_office_map.png">
