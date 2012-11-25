@@ -56,18 +56,6 @@ $this->pageTitle=Yii::app()->name;
     </li>
     <li>
         <section>
-            <h2><a href="javascript:void( 0 )" class="opener">JavaScript Ninja</a></h2>
-            <figure class="visual">
-                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
-            </figure>
-            <strong class="info">Waiting for guest from St. Petersburg Yandex's office</strong>
-            <div class="slide">
-                <p>Please follow us to know all details</p>
-            </div>
-        </section>
-    </li>
-    <li>
-        <section>
             <h2><a href="javascript:void( 0 )" class="opener"> Illya Klymov: One ring to rule them all: Sencha Complete </a></h2>
             <figure class="visual">
                 <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
@@ -78,7 +66,7 @@ $this->pageTitle=Yii::app()->name;
             </div>
         </section>
     </li>
-     
+
 
    
     <!--<li>
