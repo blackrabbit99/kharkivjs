@@ -66,6 +66,21 @@ $this->pageTitle=Yii::app()->name;
             </div>
         </section>
     </li>
+    <li>
+        <section>
+            <h2><a href="javascript:void( 0 )" class="opener"> Illya Klymov: One ring to rule them all: Sencha Complete </a></h2>
+            <figure class="visual">
+                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
+            </figure>
+            <strong class="info">Tired of implementing same logic on your desktop app, mobile app for each platform and web UI?</strong>
+            <div class="slide">
+                <p>This speech is all about dream of all developers: sharing code among each frontend of system. Best practices, problems, love & hate when using Sencha products</p>
+            </div>
+        </section>
+    </li>
+     
+
+   
     <!--<li>
         <section>
 							<h2><a href="#" class="opener">Olexiy Slusarenko</a></h2>
