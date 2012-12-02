@@ -14,7 +14,7 @@
     </section>
     <div class="title">
         <div class="wrap">
-            <span class="blank"></span><h2>Hosting partners</h2><span class="blank"></span>
+            <span class="blank"></span><h2>Hosting partner</h2><span class="blank"></span>
         </div>
     </div>
      <section>
