@@ -140,6 +140,9 @@ class SiteController extends Controller
 	{
 		if(!Yii::app()->user->isGuest){
             
+            $order = $_GET['order'];
+            $orderField = $_GET['orderField'];
+            
             $criteria = new CDbCriteria;
             $members_table = new RegisterUser();
             $members = array();
@@ -168,6 +171,9 @@ class SiteController extends Controller
                         } else if( $action == "request" ){
                             $member->sendConfirmationMessage($this);
                             
+                        } else if( $action == "inform" ) {
+                            
+                            $member->sendInformationMessage( $this );
                         }
                         
                         $retCode = $member->update();
@@ -177,15 +183,16 @@ class SiteController extends Controller
                 
             }
             else if($_POST["Search"]){           
-
-                
+            
                 $condition_str = " 1 ";
                 $params = array();
+                
+                $condition = array();
 
-                $condition['name'] = $_POST["name"];
-                $condition['company'] = $_POST["company"];
-                $condition['position'] = $_POST["position"];  
-
+                $condition['name'] = $_POST['Search']['name'];
+                $condition['company'] = $_POST['Search']['company'];
+                $condition['position'] = $_POST['Search']['position'];                  
+                
                 $i = 0;
                 foreach ($condition as $key => $value) {
                     if ($value != "") {
@@ -200,12 +207,18 @@ class SiteController extends Controller
                 $condition_str .= " and 1";
                 $criteria->condition = $condition_str;
                 $criteria->params = $params;
+                
+                
 
             
             }
             
+            if( (!( empty($orderField) || empty($order) )) && (in_array($orderField,array( 'id', 'name', 'company', 'position', 'confirmation', 'approved'))) && (in_array($order, array('asc', 'desc'))) )
+            $criteria->order = $orderField.' '.$order;
+            
             $members = $members_table->findAll($criteria);                
-            $this->render('registred_members', array('members' => $members));
+            $this->layout = 'bootstrap';
+            $this->render('registred_members', array( 'members' => $members, 'order' => $order, 'orderField' => $orderField ));
             //registred_members
             
             
@@ -218,16 +231,14 @@ class SiteController extends Controller
     public function actionConfirmParticipation(){
         
          $key = $_GET['key'];
+         $member = RegisterUser::model()->find(" md5( Concat(email , md5( Concat(position, company)), company , email))  = :md5_key", array(":md5_key" => $key));
          
-         $member = RegisterUser::model()->find(" md5( CONCAT(email , md5( CONCAT(position ,company)), company , email)) == :md5_key", array(":md5_key" => $key));
+         $member->approveConfirmation();
          
-         echo "<pre>";
-         print_r($member);
-         echo "</pre>";
+         $member->update();
          
          $this->render('thank-you-for-confirmation', array('key' => $key));
          
     }
-    
     
 }

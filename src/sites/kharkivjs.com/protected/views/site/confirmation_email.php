@@ -1,8 +1,6 @@
 Welcome to Kharkiv JS conference!
 
-We will send you request to conference later.
-
+Please approve your participation in the conference, <br/> 
+ by follow next link: 
 
 <?php echo Yii::app()->request->hostInfo."/thank-you-for-confirmation?key=".$key; ?>
-
-Thank you for registering.

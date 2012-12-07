@@ -24,12 +24,12 @@
         <thead>
             <tr>
                 <th> </th>
-                <th>#</th>
-                <th>Name</th>
-                <th>Company</th>
-                <th>Position</th>
-                <th>Confirmation</th>
-                <th>Approval Status</th>
+                <th><a href="?orderField=id&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">#</a></th>
+                <th><a href="?orderField=name&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">Name</a></th>
+                <th><a href="?orderField=company&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">Company</a></th>
+                <th><a href="?orderField=position&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">Position</a></th>
+                <th><a href="?orderField=confirmation&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">Confirmation</a></th>
+                <th><a href="?orderField=approved&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">Approval Status</a></th>
             </tr>
         </thead>
         <tbody>
@@ -40,7 +40,7 @@
                     <?php echo $form->checkBox($member, 'id['.$member->id.']', array('id' => 'member-id')); ?>
                 </td>
                 <td>
-                    <?php echo $i++; ?>
+                    <?php echo $i++ ?>
                 </td>
                 <td>
                     <?php echo $member->name; ?>
@@ -65,6 +65,7 @@
     <div class="row buttons">
         Action:
 		<select name="action">
+            <option value="inform">send information mail</option>
             <option value="approve">approve</option>
             <option value="unapprove">unapprove</option>
             <option value="request">send request for approval participation</option>

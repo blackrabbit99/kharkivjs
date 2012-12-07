@@ -39,6 +39,7 @@ return array(
             'showScriptName'=>false,
             'rules' => array(
                 'thank-you-for-registration' => 'site/page/view/thank-you-for-registration',
+                'thank-you-for-confirmation' => 'site/confirmParticipation',
                 '' => '/site/index',
                 'registration' => 'site/registration',
                 'partners' => 'site/page/view/partners',
@@ -78,10 +79,10 @@ return array(
 		),
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=mayusha_kharkivjs',
+			'connectionString' => 'mysql:host=localhost;dbname=kharkivjs_db',
 			'emulatePrepare' => true,
-			'username' => 'mayusha',
-			'password' => '80661471977',
+			'username' => 'root',
+			'password' => 'root',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(
@@ -111,12 +112,12 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'info@kharkivjs.com',
         'confirmation'=> array(
-            'subject'   => 'Kharkivjs.com - Thank you for request.',
+            'subject'   => 'Kharkivjs.com - Approval participation.',
             'message_view'   => 'confirmation_email'
         ),
-        'approval'=> array(
-            'subject'   => 'Kharkivjs.com - Approve your registration.',
-            'message_view'   => 'approved_request_mail'
+        'information'=> array(
+            'subject'   => 'Kharkivjs.com - Conference.',
+            'message_view'   => 'information_mail'
         ),
 	),
 );

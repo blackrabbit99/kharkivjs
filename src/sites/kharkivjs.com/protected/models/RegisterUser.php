@@ -46,7 +46,19 @@ class RegisterUser extends CActiveRecord {
         return 'id';
 
     }
+    
+    
+    public function sendInformationMessage($controller)
+    {
+        $message = new YiiMailMessage();
 
+        $message->setBody($controller->renderPartial(Yii::app()->params['information']['message_view'], array(), true), 'text/html');
+        $message->subject = Yii::app()->params['information']['subject'];
+        $message->addTo($this->email);
+        $message->from = Yii::app()->params['adminEmail'];
+        Yii::app()->mail->send($message);
+    }
+    
     public function sendConfirmationMessage($controller)
     {
         $message = new YiiMailMessage();
@@ -57,6 +69,10 @@ class RegisterUser extends CActiveRecord {
         $message->addTo($this->email);
         $message->from = Yii::app()->params['adminEmail'];
         Yii::app()->mail->send($message);
+    }
+    
+    public function approveConfirmation(){
+        $this->confirmation = true;
     }
     
     public function findAll($condition = '', $params = array()) {
