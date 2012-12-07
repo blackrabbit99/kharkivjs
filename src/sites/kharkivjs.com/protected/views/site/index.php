@@ -56,16 +56,55 @@ $this->pageTitle=Yii::app()->name;
     </li>
     <li>
         <section>
-            <h2><a href="javascript:void( 0 )" class="opener">JavaScript Ninja</a></h2>
+            <h2><a href="javascript:void( 0 )" class="opener"> Illya Klymov: One ring to rule them all: Sencha Complete </a></h2>
             <figure class="visual">
                 <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
             </figure>
-            <strong class="info">Waiting for guest from St. Petersburg Yandex's office</strong>
+            <strong class="info">Tired of implementing same logic on your desktop app, mobile app for each platform and web UI?</strong>
             <div class="slide">
-                <p>Please follow us to know all details</p>
+                <p>This speech is all about dream of all developers: sharing code among each frontend of system. Best practices, problems, love & hate when using Sencha products</p>
             </div>
         </section>
     </li>
+	<li>
+        <section>
+            <h2><a href="javascript:void( 0 )" class="opener"> Andrew Druchenko </a></h2>
+            <figure class="visual">
+                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
+            </figure>
+            <strong class="info">GWT. Success story</strong>
+            <div class="slide">
+                <p>How to use GWT in a largescale javascript development if you hate Java</p>
+            </div>
+        </section>
+    </li>
+	<li>
+        <section>
+            <h2><a href="javascript:void( 0 )" class="opener"> Egor Lvivsky </a></h2>
+            <figure class="visual">
+                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
+            </figure>
+            <strong class="info">JS animation</strong>
+            <div class="slide">
+                <p>The use of requestAnimationFrame for smooth javascript animations, @keyframes and multiple animations, pseudo-elements animation (with hacks).</p>
+            </div>
+        </section>
+    </li>
+	<li class="expanded">
+        <section>
+            <h2><a class="opener" href="javascript:void( 0 )"> Denis Yarovoy</a></h2>
+            <figure class="visual">
+                <!--<img width="122" height="122" src="images/img-pt0.jpg" alt="some image" />-->
+            </figure>
+            <strong class="info">X-Framework. Not like the others. </strong>
+            <div class="slide" style="display: block;">
+                <p>X-Platform Framework is a small yet powerful JavaScript MVC framework for quick development of cross-device web applications.</p>
+            </div>
+        </section>
+    </li>
+
+
+   
     <!--<li>
         <section>
 							<h2><a href="#" class="opener">Olexiy Slusarenko</a></h2>
