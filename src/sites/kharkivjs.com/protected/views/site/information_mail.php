@@ -55,10 +55,6 @@
 											<tr>
 												<td style="font-size:24px; line-height:28px; text-align:center;"><font face="Arial, Helvetica, sans-serif" color="#ffffff" size="5" style="font-size:24px; line-height:28px;">We will send you request to conference later. <br /> Thank you for registering. <br /><br /></font></td>
 											</tr>
-											<!-- example for link -->
-											<tr>
-												<td style="font-size:24px; line-height:28px; text-align:center;"><font face="Arial, Helvetica, sans-serif" color="#ffffff" size="5" style="font-size:24px; line-height:28px;"><a target="_blank" href="<?php echo Yii::app()->request->hostInfo; ?>" style="color:#ff8d55; text-decoration:none;"><font color="#ff8d55">this is link</font></a> <br /><br /></font></td>
-											</tr>
 										</table>
 									</td>
 									<td width="100"></td>

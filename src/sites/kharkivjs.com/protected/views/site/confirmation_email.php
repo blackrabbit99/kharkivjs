@@ -50,10 +50,10 @@
 												<td style="font-size:34px; line-height:38px; text-align:center;"><font face="Arial, Helvetica, sans-serif" color="#ffffff" size="6" style="font-size:34px; line-height:38px;">Welcome to Kharkiv JS conference! <br /><br /></font></td>
 											</tr>
 											<tr>
-												<td style="font-size:24px; line-height:28px; text-align:center;"><font face="Arial, Helvetica, sans-serif" color="#ffffff" size="5" style="font-size:24px; line-height:28px;">Please approve your participation in the conference, <br/> by follow  <br /><br /></font></td></tr>
+												<td style="font-size:24px; line-height:28px; text-align:center;"><font face="Arial, Helvetica, sans-serif" color="#ffffff" size="5" style="font-size:24px; line-height:28px;">Please approve your participation in the conference, <br /></font></td></tr>
 											<!-- example for link -->
 											<tr>
-												<td style="font-size:24px; line-height:28px; text-align:center;"><font face="Arial, Helvetica, sans-serif" color="#ffffff" size="5" style="font-size:24px; line-height:28px;"><a target="_blank" href="<?php echo Yii::app()->request->hostInfo."/thank-you-for-confirmation?key=".$key; ?>" style="color:#ff8d55; text-decoration:none;"><font color="#ff8d55">this link</font></a> <br /><br /></font></td>
+												<td style="font-size:24px; line-height:28px; text-align:center;"><font face="Arial, Helvetica, sans-serif" color="#ffffff" size="5" style="font-size:24px; line-height:28px;"><a target="_blank" href="<?php echo Yii::app()->request->hostInfo."/thank-you-for-confirmation?key=".$key; ?>" style="color:#ff8d55; text-decoration:none;"><font color="#ff8d55">by follow this link</font></a> <br /><br /></font></td>
 											</tr>
 										</table>
 									</td>
