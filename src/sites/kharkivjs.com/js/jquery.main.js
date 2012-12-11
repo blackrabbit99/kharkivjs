@@ -1,8 +1,26 @@
 // page init
 jQuery(function(){
 	initOpenClose();
+    initSelectAll();
+    
 });
 
+function initSelectAll(){
+    jQuery("#member-ids").click(function(){
+        var status = false;
+        
+        if(jQuery(this).is(":checked")){
+            status = true;
+        }
+        
+        jQuery('input[type="checkbox"][id="member-id"]').each(function(index){
+            
+            jQuery(this).attr('checked',status);
+        });
+    });
+        
+        
+}
 // open-close init
 function initOpenClose() {
 	jQuery('ul.partaker-list li').openClose({

@@ -23,7 +23,7 @@
     <table class="table table-condensed">
         <thead>
             <tr>
-                <th> </th>
+                <th> <input id="member-ids" value="1" type="checkbox">  </th>
                 <th><a href="?orderField=id&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">#</a></th>
                 <th><a href="?orderField=name&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">Name</a></th>
                 <th><a href="?orderField=company&order=<?php echo $order=='asc'?'desc':'asc'; ?> ">Company</a></th>

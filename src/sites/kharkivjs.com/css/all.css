@@ -385,22 +385,26 @@ figure{
 	vertical-align:top;
 	margin:0 11px;
 }
-#reg-form{
+#reg-form, .omni-form{
 	width:660px;
 	margin:0 auto;
 	padding:20px 0;
 }
-#reg-form .row{
+#reg-form .row, .omni-form .row{
 	width:100%;
 	margin:0 0 15px;
+    overflow: hidden;
 }
-#reg-form .submit-holder{padding:30px 0 0;}
-#reg-form .row label{
+#reg-form .submit-holder, .omni-form .row.buttons{padding:30px 0 0;}
+#reg-form .row label, .omni-form .row label{
 	float:left;
 	width:280px;
 	font-family:"Comfortaa", sans-serif;
 }
-#reg-form .row input[type="text"]{
+.omni-form .row.rememberMe label{
+    width: 378px;
+}
+#reg-form .row input[type="text"], .omni-form .row input[type="text"], .omni-form .row input[type="password"]{
 	float:right;
 	width:350px;
 	height:29px;
@@ -415,7 +419,10 @@ figure{
 	box-shadow: 3px 3px 0 rgba(71,69,69,0.5);
 	background:#f6f2e7;
 }
-#reg-form #submit{
+.omni-form .row input[type="text"], .omni-form .row input[type="password"]{
+    width: 256px;
+}
+#reg-form #submit, .omni-form .row input[type="submit"]{
 	display:block;
 	width:196px;
 	height:58px;

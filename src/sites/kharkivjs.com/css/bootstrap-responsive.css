@@ -458,6 +458,7 @@
   }
   .span12 {
     width: 1170px;
+    float: none;
   }
   .span11 {
     width: 1070px;
