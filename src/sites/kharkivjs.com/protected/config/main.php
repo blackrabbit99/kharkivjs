@@ -44,6 +44,7 @@ return array(
                 'registration' => 'site/registration',
                 'partners' => 'site/page/view/partners',
                 'location' => 'site/page/view/location',
+                'translation' => 'site/page/view/translation',
                 'organizers' => 'site/page/view/organizers',
                 'login' => 'site/login',
                 'registred_members' => 'site/registred_members',
